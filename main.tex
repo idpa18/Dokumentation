@@ -1,0 +1,74 @@
+\documentclass[opensans]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[default]{opensans}
+
+\usepackage{biblatex}
+\addbibresource{bibliography/opbef}
+
+\usepackage{graphicx}
+\graphicspath{{images/}{../images/}}
+ 
+\usepackage{subfiles}
+
+\usepackage[toc]{glossaries}
+\subfile{sections/glossar}
+
+% german specific
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{hyphenat}
+ 
+\title{Der Réduit-Plan}
+%\subtitle{Die Schweizer Verteidigungsstrategie im zweiten Welt Krieg}
+\author{Stefi, Joel, Seya und Dario}
+
+\begin{document}
+
+\begin{titlepage}
+    \maketitle
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+
+\section{Test}
+The \gls{latex} typesetting markup language
+
+\section{Vorwort} \label{Vorwort}
+\subfile{sections/vorwort}
+\newpage 
+
+\section{Zusammenfassung} \label{Zusammenfassung}
+\subfile{sections/zusammenfassung}
+\newpage
+
+\section{Einleitung} \label{Einleitung}
+\subfile{sections/einleitung}
+\newpage
+
+\section{Vorgehen} \label{Vorgehen}
+\subfile{sections/vorgehen}
+\newpage
+
+\section{Resultate} \label{Resultate}
+\subfile{sections/resultate}
+\newpage
+
+\section{Diskussion} \label{Diskussion}
+\subfile{sections/diskussion}
+\newpage
+
+\section{Glossar} \label{Glossar}
+\printglossaries
+\newpage
+
+\section{Quellen} \label{Quellen}
+\printbibliography
+\newpage
+
+\section{Anhang} \label{Anhang}
+\subfile{sections/anhang}
+ 
+\end{document}

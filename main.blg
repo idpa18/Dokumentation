@@ -1,0 +1,9 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is '/Users/stefi/OneDrive - BBBaden/BBB/Matura/IDPA/latex/main.blg'
+[51] biber-darwin:313> INFO - === Tue Apr 23, 2019, 21:09:40
+[76] Biber.pm:371> INFO - Reading '/Users/stefi/OneDrive - BBBaden/BBB/Matura/IDPA/latex/main.bcf'
+[166] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[173] Utils.pm:193> WARN - The file '/Users/stefi/OneDrive - BBBaden/BBB/Matura/IDPA/latex/main.bcf' does not contain any citations!
+[181] bbl.pm:617> INFO - Writing '/Users/stefi/OneDrive - BBBaden/BBB/Matura/IDPA/latex/main.bbl' with encoding 'UTF-8'
+[181] bbl.pm:720> INFO - Output to /Users/stefi/OneDrive - BBBaden/BBB/Matura/IDPA/latex/main.bbl
+[181] Biber.pm:110> INFO - WARNINGS: 1

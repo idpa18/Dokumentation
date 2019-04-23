@@ -1,0 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Test}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Vorwort}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Zusammenfassung}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Einleitung}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Vorgehen}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Resultate}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Diskussion}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Glossar}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Glossar}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Quellen}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10}Anhang}{10}
