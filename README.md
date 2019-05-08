@@ -31,7 +31,8 @@ Um dieses Projekt richtig zu nutzen, müssen ein paar Sachen installiert werden.
                 "%DOCFILE%"
             ]
         }
-    ],```
+    ]
+    ```
     ```json
     "latex-workshop.latex.recipes": [
         {
@@ -43,9 +44,9 @@ Um dieses Projekt richtig zu nutzen, müssen ein paar Sachen installiert werden.
                 "pdflatex"
             ]
         }
-    ],
+    ]
     ```
-    
+
 ## Was wo?
 Alle wichtigen Teile der Dokumentation sind in einer eigenen Datei.
 Soll etwas bibliografiert werden, kann die Quelle in der Datei `opbef.bib` nach diesem [Format](https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX#The_bibliography_file) hinzugefügt werden und nach diesem [Format](https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX#Introduction) im Text Zitiert werden.
