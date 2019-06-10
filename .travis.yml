@@ -9,6 +9,7 @@ addons:
       - texlive-bibtex-extra
       - texlive-lang-german
       - texlive-fonts-extra
+      - biber
 script:
   - pdflatex main.tex
   - biber main
