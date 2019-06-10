@@ -6,6 +6,7 @@ addons:
       - texlive
       - texlive-base
       - texlive-latex-extra
+      - texlive-bibtex-extra
       - texlive-lang-german
       - texlive-fonts-extra
 script:
