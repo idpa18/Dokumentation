@@ -5,6 +5,8 @@ addons:
     packages:
       - texlive
       - texlive-latex-extra
+      - texlive-lang-german
+      - texlive-opensans
 script:
   - pdflatex main.tex
   - biber main
