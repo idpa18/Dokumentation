@@ -4,6 +4,7 @@ addons:
   apt:
     packages:
       - texlive
+      - texlive-base
       - texlive-latex-extra
       - texlive-lang-german
       - texlive-fonts-extra
