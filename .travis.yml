@@ -6,7 +6,7 @@ addons:
       - texlive
       - texlive-latex-extra
       - texlive-lang-german
-      - fonts-open-sans
+      - texlive-fonts-extra
 script:
   - pdflatex main.tex
   - biber main
