@@ -1,0 +1,12 @@
+sudo: required
+dist: trusty
+addons:
+  apt:
+    packages:
+      - texlive
+      - texlive-latex-extra
+script:
+  - pdflatex main.tex
+  - biber main
+  - makeglossaries main
+  - pdflatex main.tex
