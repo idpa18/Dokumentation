@@ -60,3 +60,9 @@ Wird das Dokument gespeichert, wird ein PDF daraus generiert (Oben rechts im VSC
 
 Für generelle Informationen zu LaTeX, ist [diese Seite](https://www.overleaf.com/learn/latex/Main_Page) super hilfreich. 
 Auch Herr Schneider kann helfen.
+
+## Generell
+Soll um einen Text Anführungszeichen stehen, der kein Zitat ist, müssen diese als ``Text'' geschrieben werden. 
+
+(Steht ein Vokal direkt nach den schliessenden Anführungszeichen, wird er zum Umlaut, und ein 's' wird zum scharfen 'ß' wegen dem Package ngerman)
+
