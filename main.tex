@@ -3,7 +3,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[default]{opensans}
 
-\usepackage{biblatex}
+\usepackage{setspace}
+\usepackage[style=authoryear,citestyle=authoryear]{biblatex}
 \addbibresource{bibliography/opbef.bib}
 
 \usepackage{graphicx}
@@ -11,7 +12,7 @@
  
 \usepackage{subfiles}
 
-\usepackage{hyperref}
+\usepackage{hyperref} 
 
 \usepackage{mathpazo} % Palatino font
 
@@ -26,6 +27,7 @@
 % styling for new paragraph
 \setlength{\parindent}{0em}
 \setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1.5}
 
 \title{Der Réduit-Plan} 
 \author{Stefi, Joel, Seya und Dario}
@@ -67,7 +69,9 @@
 \newpage
 
 \section{Quellen} \label{Quellen}
+{ \setstretch{1.0}
 \printbibliography
+}
 \newpage
 
 \section{Bilder} \label{Bilder}
