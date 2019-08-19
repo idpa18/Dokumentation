@@ -9,6 +9,16 @@
 \usepackage[style=authoryear,citestyle=authoryear]{biblatex}
 \addbibresource{bibliography/opbef.bib}
 
+\usepackage{chngcntr}  % Counter für durchgängige Nummerierung
+\counterwithout{figure}{chapter}                                                
+\counterwithout{table}{chapter}  
+
+\usepackage[titles]{tocloft}                  %titles für seperate Seiten
+\renewcommand{\thefigure}{\bfseries\arabic{figure}}
+\renewcommand{\cftfigpresnum}{\textbf{Abb.}  }
+\renewcommand{\cftfigaftersnum}{\textbf{.}}
+\renewcommand{\cftdotsep}{\cftnodots}
+
 \usepackage{graphicx}
 \graphicspath{{images/}{../images/}}
  
@@ -82,8 +92,5 @@
 
 \section{Anhang} \label{Anhang}
 \subfile{sections/anhang}
-
-\section{Festung Vitznau} \label{Vitznau}
-\subfile{sections/vitznauNotizen}
 
 \end{document} 
