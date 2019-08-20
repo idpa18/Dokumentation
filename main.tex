@@ -48,7 +48,10 @@
 
 \subfile{sections/titelSeite}
 
+\pagestyle{empty}
 \tableofcontents
+\clearpage
+\pagestyle{plain}
 
 \newpage
 
@@ -78,11 +81,14 @@
 
 \section{Quellen} \label{Quellen}
 { \setstretch{1.0}
-\printbibliography
+\footnote{Den von der Berufsbildung Baden geforderten Bibliographie-Leitfaden können wir leider nicht komplett einhalten, da unsere Arbeit mit LaTeX verfasst wurde, welches diesen Standard nicht unterstützt.}
+\footnote{Die Informationen der beiden Wikipedia-Quellen konnte nicht ausfindig gemacht werden, weshalb wir uns - entgegen den Vorgaben der IDPA - lediglich auf diese stützen.}
+\printbibliography 
 }
 \newpage
 
 \section{Bilder} \label{Bilder}
+\footnote{Den von der Berufsbildung Baden geforderten Bibliographie-Leitfaden können wir leider nicht komplett einhalten, da unsere Arbeit mit LaTeX verfasst wurde, welches diesen Standard nicht unterstützt.}
 \listoffigures
 \newpage
 
