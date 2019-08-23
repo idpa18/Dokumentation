@@ -10,8 +10,8 @@
 \addbibresource{bibliography/opbef.bib}
 
 \usepackage{chngcntr}  % Counter für durchgängige Nummerierung
-\counterwithout{figure}{chapter}                                                
-\counterwithout{table}{chapter}  
+\counterwithout{figure}{section}                                                
+\counterwithout{table}{section}  
 
 \usepackage[titles]{tocloft}                  %titles für seperate Seiten
 \renewcommand{\thefigure}{\bfseries\arabic{figure}}
@@ -80,6 +80,7 @@
 \newpage
 
 \section{Quellen} \label{Quellen}
+\nocite{*}
 { \setstretch{1.0}
 \footnote{Den von der Berufsbildung Baden geforderten Bibliographie-Leitfaden können wir leider nicht komplett einhalten, da unsere Arbeit mit LaTeX verfasst wurde, welches diesen Standard nicht unterstützt.}
 \footnote{Die Informationen der beiden Wikipedia-Quellen konnte nicht ausfindig gemacht werden, weshalb wir uns - entgegen den Vorgaben der IDPA - lediglich auf diese stützen.}
