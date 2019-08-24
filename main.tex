@@ -10,21 +10,17 @@
 \addbibresource{bibliography/opbef.bib}
 
 \usepackage{chngcntr}  % Counter für durchgängige Nummerierung
-\counterwithout{figure}{section}                                                
+\counterwithout{figure}{section}
 \counterwithout{table}{section}  
 
-\usepackage[titles]{tocloft}                  %titles für seperate Seiten
-\renewcommand{\thefigure}{\bfseries\arabic{figure}}
-\renewcommand{\cftfigpresnum}{\textbf{Abb.}  }
-\renewcommand{\cftfigaftersnum}{\textbf{.}}
-\renewcommand{\cftdotsep}{\cftnodots}
+\usepackage[titles]{tocloft} %titles für seperate Seiten
 
 \usepackage{graphicx}
 \graphicspath{{images/}{../images/}}
  
 \usepackage{subfiles}
 
-\usepackage{hyperref} 
+\usepackage{hyperref}
 
 \usepackage{mathpazo} % Palatino font
 
@@ -40,6 +36,9 @@
 \setlength{\parindent}{0em}
 \setlength{\parskip}{1em}
 \renewcommand{\baselinestretch}{1.5}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\cftfigpresnum}{Abb. }
+\renewcommand{\cftfigaftersnum}{.}
 
 \title{Der Réduit-Plan} 
 \author{Stefi, Joel, Seya und Dario}
@@ -59,7 +58,7 @@
 \subfile{sections/vorwort}
 \newpage 
 
-\section{Zusammenfassung} \label{Zusammenfassung}
+\section{Abstract} \label{Abstract}
 \subfile{sections/zusammenfassung}
 \newpage
 
@@ -79,17 +78,22 @@
 \subfile{sections/diskussion}
 \newpage
 
-\section{Quellen} \label{Quellen}
+\addcontentsline{toc}{section}{Bibliographie}
 \nocite{*}
 { \setstretch{1.0}
-\footnote{Den von der Berufsbildung Baden geforderten Bibliographie-Leitfaden können wir leider nicht komplett einhalten, da unsere Arbeit mit LaTeX verfasst wurde, welches diesen Standard nicht unterstützt.}
-\footnote{Die Informationen der beiden Wikipedia-Quellen konnte nicht ausfindig gemacht werden, weshalb wir uns - entgegen den Vorgaben der IDPA - lediglich auf diese stützen.}
-\printbibliography 
+\let\thefootnote\relax\footnotetext{Den von der Berufsbildung Baden geforderten Bibliographie-Leitfaden können wir leider nicht komplett einhalten, da unsere Arbeit mit LaTeX verfasst wurde, welches diesen Standard nicht unterstützt.}
+\let\thefootnote\relax\footnotetext{Die Informationen der beiden Wikipedia-Quellen konnte nicht ausfindig gemacht werden, weshalb wir uns - entgegen den Vorgaben der IDPA - lediglich auf diese stützen.}
+\let\itshape\upshape
+\printbibliography [
+    title={Bibliographie}
+]
 }
 \newpage
 
-\section{Bilder} \label{Bilder}
-\footnote{Den von der Berufsbildung Baden geforderten Bibliographie-Leitfaden können wir leider nicht komplett einhalten, da unsere Arbeit mit LaTeX verfasst wurde, welches diesen Standard nicht unterstützt.}
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+\renewcommand{\cftfigindent}{0pt}
+\setlength{\cftfignumwidth}{1.4cm}
+\let\thefootnote\relax\footnotetext{Den von der Berufsbildung Baden geforderten Bibliographie-Leitfaden können wir leider nicht komplett einhalten, da unsere Arbeit mit LaTeX verfasst wurde, welches diesen Standard nicht unterstützt.}
 \listoffigures
 \newpage
 
