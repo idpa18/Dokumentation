@@ -7,6 +7,8 @@
 
 \usepackage{setspace}
 \usepackage[style=authoryear,citestyle=authoryear]{biblatex}
+\usepackage{blindtext}
+\usepackage{biblatex}
 \addbibresource{bibliography/opbef.bib}
 
 \usepackage{chngcntr}  % Counter für durchgängige Nummerierung
@@ -79,14 +81,17 @@
 \newpage
 
 \addcontentsline{toc}{section}{Bibliographie}
+\setlength{\bibhang}{0pt}
 \nocite{*}
 { \setstretch{1.0}
 \let\thefootnote\relax\footnotetext{Den von der Berufsbildung Baden geforderten Bibliographie-Leitfaden können wir leider nicht komplett einhalten, da unsere Arbeit mit LaTeX verfasst wurde, welches diesen Standard nicht unterstützt.}
 \let\thefootnote\relax\footnotetext{Die Informationen der beiden Wikipedia-Quellen konnte nicht ausfindig gemacht werden, weshalb wir uns -- entgegen den Vorgaben der IDPA -- lediglich auf diese stützen.}
 \let\itshape\upshape
+\setlength\bibitemsep{10pt}
 \printbibliography [
     title={Bibliographie}
 ]
+\setlength\bibitemsep{0pt}
 }
 \newpage
 
